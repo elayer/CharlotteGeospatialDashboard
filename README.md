@@ -45,15 +45,25 @@ In addition, there were records in the 311 Call Requests dataset that were not i
 
 
 ## EDA
-As one would expect, Year was generally positively correlated with price, while mileage was negatively correlated with price. Of course, some brands of cars were still more espensive than others even with more miles, meaning that brand/make is indeed an influencer of car price. 
+I conducted a little EDA to help with engaging the data in what to look for and found a few things.
+
+Within the police incidente notebook, there were a few police divisions with more incidents reported than others. In addition, there were some addresses in the 311 Requests data that shined through with having a fair amount of records over other addresses. 
+
+Below are pictures depicting these findings.
 
 
-![alt text](https://github.com/elayer/CarvanaCarsProject/blob/main/mpgcity_price_bycyl.png "MPG per Engine Cylinder Price")
+![alt text](https://github.com/elayer/CharlotteGeospatialDashboard/blob/main/st_commoncmpddivision.png "CMPD Divisions")
+![alt text](https://github.com/elayer/CharlotteGeospatialDashboard/blob/main/st_commonlocs.png "Common 311 Locations")
 
-The Toyota Prius was at the top of fuel effieincy within the data.
+With the 311 Requests data being so dense, I found that the large majority of records belonged to the Solid Waster Services department as well as the Non-Recyclable Items request type.
 
 ## StreamLit Dashboard Application
-Once all cleaning tasks were completed, I moved into constructing a handy dashboard using Streamlit. 
+Once all cleaning tasks were completed, I moved into constructing a handy dashboard using Streamlit. Below are a few pictures showing the interface:
+
+![alt text](https://github.com/elayer/CharlotteGeospatialDashboard/blob/main/st_top.png "StreamLit Top Page")
+![alt text](https://github.com/elayer/CharlotteGeospatialDashboard/blob/main/st_trafficincidents.png "Serious Traffic Accidents")
+![alt text](https://github.com/elayer/CharlotteGeospatialDashboard/blob/main/st_police.png "CMPD Incidents")
+![alt text](https://github.com/elayer/CharlotteGeospatialDashboard/blob/main/st_311.png "311 Requests")
 
 ## Future Improvements
 If it were possible, I could incorporate a way to ingest data into the application in real-time. This way, one wouldn't have to constantly import new data, and the dashboard would be readily available to analyze.
