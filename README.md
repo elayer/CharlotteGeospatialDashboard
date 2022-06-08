@@ -6,7 +6,7 @@
 
 * Created a StreamLit application to consolidate all geospatial maps into one dashboard.
 
-NOTE: The data used is too large to upload to GitHub (which I may not have permission to re-upload). You may access the original datasets by following this link and searching for the data:
+NOTE: The data used is too large to upload to GitHub (which I may not have permission to re-upload). If you wish to replicate this work, you will have to download the data from the link below and follow the notebooks in this repository. You may access the original datasets by following this link and searching for the data:
 https://data.charlottenc.gov/
 
 In addition, you will have to create a mapbox account as well as generate an access token in order to utilize making geospatial maps together with plotly. A link to mapbox's website is also provided below.
